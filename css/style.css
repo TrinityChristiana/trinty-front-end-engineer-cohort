@@ -1,6 +1,6 @@
 body {
     background-color: pink; /* update the main background color for your page */
-    font-family: "Cedarville Cursive", cursive;
+    /* font-family: "Cedarville Cursive", cursive; */
     font-style: normal;
 }
 
@@ -22,4 +22,26 @@ h1 {
 h2 {
     font-size: 2rem;
     line-height: 1.2;
+}
+
+a:hover,
+a:focus {
+    text-shadow: 1px 1px 11px green;
+}
+
+.active-link {
+    font-weight: 800;
+    text-decoration: none;
+}
+
+.show-on-hover {
+    display:none;
+}
+
+.scavenger-hunt:hover .show-on-hover {
+    display: block;
+}
+
+.scavenger-hunt:focus .show-on-hover {
+    display: block;
 }
