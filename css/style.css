@@ -1,5 +1,6 @@
 body {
-    background-color: pink; /* update the main background color for your page */
+    background-color: pink;
+    /* update the main background color for your page */
     /* font-family: "Cedarville Cursive", cursive; */
     font-style: normal;
 }
@@ -35,7 +36,7 @@ a:focus {
 }
 
 .show-on-hover {
-    display:none;
+    display: none;
 }
 
 .scavenger-hunt:hover .show-on-hover {
@@ -44,4 +45,20 @@ a:focus {
 
 .scavenger-hunt:focus .show-on-hover {
     display: block;
+}
+
+.blog-img {
+    border: 5px dashed red;
+    width: 50%;
+    height: auto;
+    padding: 10px;
+    margin: 20px 5px;
+}
+
+.gallery-img {
+    height: auto;
+    border: 5px solid black;
+    width: 21%;
+    padding: 5px;
+    margin: 2%;
 }
